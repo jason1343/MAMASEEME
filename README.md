@@ -1,7 +1,10 @@
-# screenleaker
+# MAMASEEME-0221
 
 This screenleaker sends screenshots to your gmail secretly.
 
+![image](https://github.com/jason1343/MAMASEEME-0221/assets/96876149/966c973f-b455-4142-8e73-868ff259424b)
+
+---
 
 1. You need to create your app password first.
 
