@@ -2,10 +2,12 @@
 
 This screenleaker sends screenshots to your gmail secretly.
 
+*This tool infects target pc.
+
 ![image](https://github.com/jason1343/MAMASEEME-0221/assets/96876149/966c973f-b455-4142-8e73-868ff259424b)
 
 ---
-
+# Usage
 1. You need to create your app password first.
 
 2. Then write your app password and gmail in these code..
